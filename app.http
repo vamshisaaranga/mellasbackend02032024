@@ -1,0 +1,16 @@
+GET http://localhost:3000/details/
+
+###
+
+POST http://localhost:3000/register/
+Content-Type: application/json
+
+{
+    "user_name" : "sandeep",
+    "password" : "sandeep$fdfdf",
+    "email" : "sanger@ffdd",
+    "state" : "AndhraPradesh",
+    "district" : "RangaReddy",
+    "area" : "Lb Nagar",
+    "phoneNumber" : "7981132472"
+}
